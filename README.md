@@ -1,10 +1,8 @@
-PT Start 2024.2
+# PT Start 2024.2
 
-DevOps Python Telegram Bot
+### DevOps Python Telegram Bot
 
-Для запуска воспользуйтесь командой: 
-------------------------------
+**Для запуска воспользуйтесь командой:**
+
 ```bash
 sudo docker compose up --build
-```
-------------------------------
