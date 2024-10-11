@@ -1,0 +1,36 @@
+all:
+  children:
+    db_servers:
+      hosts:
+        DB:
+          ansible_host: 192.168.253.173
+          ansible_user: ansible
+          ansible_password: Brahio24
+        DB_repl:
+          ansible_host: 192.168.253.174
+          ansible_user: ansible
+          ansible_password: Brahio24
+    TG_Bot:
+      hosts:
+        TG_Bot:
+          ansible_host: 192.168.253.172
+          ansible_user: ansible
+          ansible_password: Brahio24
+          
+  vars:
+    TOKEN: '7078294038:AAEI4oZMdEuE82FdRWrnYR3yo-0d48Wvufk'
+    RM_HOST: '192.168.253.173'
+    RM_PORT: '22'
+    RM_USER: 'ansible'
+    RM_PASSWORD: 'Brahio24'
+    DB_HOST: '192.168.253.173'
+    DB_REPL_HOST: '192.168.253.174'
+    DB_PORT: '5432'
+    DB_DATABASE: 'devops'
+    DB_REPL_USER: 'db_repl_user'
+    DB_REPL_PASSWORD: 'Brahio24'
+    DB_REPL_PORT: '5432'
+    DB_USER: 'postgres'
+    DB_PASSWORD: 'Brahio24'
+    
+    
