@@ -310,7 +310,7 @@ async def get_phone_numbers(update: Update, context: ContextTypes.DEFAULT_TYPE):
         for i in range(0, len(result_str), chunk_size):
             await update.message.reply_text(result_str[i:i+chunk_size])
     else:
-        await update.message.reply_text("No emails found.")
+        await update.message.reply_text("No phone numbers found.")
 
 # Главная функция
 def main():
